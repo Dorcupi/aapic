@@ -24,3 +24,9 @@ def adviceslip():
   items = get_stuff()
   quote = items[0]
   return render_template("adviceslip.html", quote=quote)
+
+@views.route("/goprogram/inspiration")
+def goprograminspiration():
+  items = get_stuff()
+  inspiriation = items[1]
+  return render_template("goprograminspiration.html", inspiriation=inspiriation)

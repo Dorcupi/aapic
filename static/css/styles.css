@@ -3,6 +3,8 @@ body {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #020131;
   background-color: #768df5;
+  margin: 0;
+  padding: 0;
 }
 
 /* headings, other
@@ -389,4 +391,10 @@ button {
 }
 .objectcenter {
   text-align: center;
+}
+.footer {
+  background-color: #020131;
+  color:rgb(59, 188, 228);
+  width: 100%;
+  position: absolute;
 }
