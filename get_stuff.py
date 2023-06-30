@@ -10,7 +10,7 @@ def get_stuff():
 
     quote = response_info1["slip"]["advice"]
 
-    response2 = requests.get("https://api.goprogram.ai/inspiration")
+    response2 = requests.get("https://api.goprogram.co.uk/inspiration")
 
     response2 = response2.text
 
