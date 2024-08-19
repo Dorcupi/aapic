@@ -10,13 +10,7 @@ def get_stuff():
 
     quote = response_info1["slip"]["advice"]
 
-    response2 = requests.get("https://api.goprogram.co.uk/inspiration")
-
-    response2 = response2.text
-
-    response_info2 = json.loads(response2)
-
-    inspiration = response_info2["quote"]
+    inspiration = "Temporarily offline"
 
     response3 = requests.get('https://icanhazdadjoke.com', headers={"Accept":"application/json"})
 
